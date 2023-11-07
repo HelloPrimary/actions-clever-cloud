@@ -1,4 +1,4 @@
-FROM node:16-bullseye AS builder
+FROM node:18-bullseye AS builder
 
 WORKDIR /action
 
@@ -13,7 +13,7 @@ RUN yarn install --production
 
 # ---
 
-FROM node:16-bullseye AS final
+FROM node:18-bullseye AS final
 
 COPY --from=builder /action /action
 
