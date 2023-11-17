@@ -86,6 +86,11 @@ export function processArguments(): Arguments {
 
 async function checkForShallowCopy(): Promise<void> {
   let output = ''
+  await exec('git', ['config', '--global', '--add', 'safe.directory', '/github/workspace'], {
+    listeners: {
+      stdout: (data: Buffer) => (output += data.toString())
+    }
+  })
   await exec('git', ['rev-parse', '--is-shallow-repository'], {
     listeners: {
       stdout: (data: Buffer) => (output += data.toString())
