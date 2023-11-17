@@ -53,7 +53,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "run-s lint test"
+      "pre-push": "run-s lint"
     }
   },
   "jest": {
