@@ -647,10 +647,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@clevercloud/client@^8.0.2":
-  version "8.0.2"
-  resolved "https://registry.yarnpkg.com/@clevercloud/client/-/client-8.0.2.tgz#ed5375c670fb7c437bfea0c55022dd9e1426bba7"
-  integrity sha512-smSsmX2GAYed96k8n+qVRxEtc8hvfuvwPW0c5sW/R9x9Z8OsorS+Xpe2OFc0ADsEbJhGqbEHr84TKuIuSUu7dw==
+"@clevercloud/client@^8.1.2":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@clevercloud/client/-/client-8.2.0.tgz#9bceaf01cc452fbda01eaaead3ba2490c910661b"
+  integrity sha512-nPOShepm52mY4ddcMiDpFfJUi9CjByuuQH8vAiFVn3r9Y0+BL3aXV/40SxT0qZDgt6bkyQB75tAEPMozIho4WQ==
   dependencies:
     component-emitter "^1.3.0"
     oauth-1.0a "^2.2.6"
@@ -1661,19 +1661,19 @@ clean-git-ref@^2.0.1:
   resolved "https://registry.yarnpkg.com/clean-git-ref/-/clean-git-ref-2.0.1.tgz#dcc0ca093b90e527e67adb5a5e55b1af6816dcd9"
   integrity sha512-bLSptAy2P0s6hU4PzuIMKmMJJSE6gLXGH1cntDu7bWJUksvuM+7ReOK61mozULErYvP6a15rnYl0zFDef+pyPw==
 
-clever-tools@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/clever-tools/-/clever-tools-3.0.2.tgz#803f4647d49b5ce7700fa3719f0069a7fea01797"
-  integrity sha512-tFd5Nm95WfNNuoW0I57lCSCIGxSvOA+9XwA7X027oMX7TTvcp8bCVwTKVVZ8Ha6UQuFy6K1111J5UVPAeUzB0Q==
+clever-tools@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/clever-tools/-/clever-tools-3.4.0.tgz#56b52e52ebe78f8e8db8c351830d350295f6b258"
+  integrity sha512-gNAnB/CcsYpGa9sJOvT7zz2Tgl2E+dvra/1ELWfVoHxM0KaCTI1rpML+6LNcMIFJDQG8G8i1vaDLE4A8TzCMyg==
   dependencies:
-    "@clevercloud/client" "^8.0.2"
+    "@clevercloud/client" "^8.1.2"
     clf-date "^0.2.0"
     cliparse "^0.3.3"
     colors "1.4.0"
     common-env "^6.4.0"
     curlconverter "^3.21.0"
     eventsource "^1.1.0"
-    isomorphic-git "^1.8.2"
+    isomorphic-git "^1.25.3"
     linux-release-info "^3.0.0"
     lodash "^4.17.21"
     mkdirp "^1.0.4"
@@ -3178,10 +3178,10 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
-isomorphic-git@^1.8.2:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/isomorphic-git/-/isomorphic-git-1.12.1.tgz#4efc96e12cd1e8bfa11e771083c004cd398fcfcd"
-  integrity sha512-Osybppp9GZqaZte9iOSB110rIWpPnsRTAjNFRYXt3MbzA+Q6LUsi9JHcLg1rf32deN3PzLy/fUXE2icw3TX7JA==
+isomorphic-git@^1.25.3:
+  version "1.25.6"
+  resolved "https://registry.yarnpkg.com/isomorphic-git/-/isomorphic-git-1.25.6.tgz#ec8ff6b5379fa0094c09b836fd68a8ddd8b88d3b"
+  integrity sha512-zA3k3QOO7doqOnBgwsaXJwHKSIIl5saEdH4xxalu082WHVES4KghsG6RE2SDwjXMCIlNa1bWocbitH6bRIrmLQ==
   dependencies:
     async-lock "^1.1.0"
     clean-git-ref "^2.0.1"
