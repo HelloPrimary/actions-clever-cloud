@@ -9,6 +9,13 @@
 GitHub action to deploy your application to
 [Clever Cloud](https://clever-cloud.com).
 
+## Primary : build/push de l'image Docker
+
+```shell
+docker build -t ghcr.io/helloprimary/actions-clever-cloud:latest .
+docker push ghcr.io/helloprimary/actions-clever-cloud:latest
+```
+
 ## Prerequisite
 
 ⚠️ When creating an application on Clever Cloud, you have to choose
